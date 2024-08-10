@@ -188,7 +188,7 @@ def message_on_messenger(message):
                 time.sleep(timm)
             else:
                 print('\033[1;32m[x] Message Block ' + tt, '\n[×] Token Error\n')
-                time.sleep(30)
+                time.sleep(0)
         except Exception as e:
             print("\033[1;31;40m", end = "")
             print(e , '\n')           
